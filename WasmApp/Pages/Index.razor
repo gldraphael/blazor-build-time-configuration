@@ -1,0 +1,7 @@
+﻿@page "/"
+@inject IOptions<AppOptions> options
+
+<pre>
+      <strong>Base URL:</strong> @options.Value.BaseUrl
+    <strong>Last Build:</strong> @options.Value.BuildDate
+</pre>
